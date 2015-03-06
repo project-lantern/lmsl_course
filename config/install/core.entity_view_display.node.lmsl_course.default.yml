@@ -1,0 +1,24 @@
+uuid: c415b132-6b69-466d-8421-33ff1f6824ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.lmsl_course.body
+    - node.type.lmsl_course
+  module:
+    - text
+    - user
+id: node.lmsl_course.default
+targetEntityType: node
+bundle: lmsl_course
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

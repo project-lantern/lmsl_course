@@ -1,0 +1,22 @@
+uuid: 7af334f3-42c5-4c66-a35e-94a415d0fc07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.lmsl_course
+  module:
+    - text
+id: node.lmsl_course.body
+field_name: body
+entity_type: node
+bundle: lmsl_course
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

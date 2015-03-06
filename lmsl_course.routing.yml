@@ -1,0 +1,7 @@
+lmsl_course.overview:
+  path: '/admin/structure/lmsl_course'
+  defaults:
+    _entity_list: 'lmsl_course'
+    _title: 'Course'
+  requirements:
+    _permission: 'administer lmsl_course'

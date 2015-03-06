@@ -1,0 +1,19 @@
+<?php
+use Drupal\Core\Language\Language;
+use Drupal\Core\Cache\CacheBackendInterface;
+
+/**
+ * Implements hook_permission().
+ */
+function lmsl_course_permission() {
+   $perm = array();
+
+    $perm['administer lmsl_course'] = array(
+    'title' => t('Administer Course entity'),
+    'description' => t('Allows user to administer Course entities.')
+  );
+
+
+  return $perm;
+}
+?>

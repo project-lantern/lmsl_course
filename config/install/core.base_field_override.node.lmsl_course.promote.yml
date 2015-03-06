@@ -1,0 +1,20 @@
+uuid: a706248a-8aa9-495a-8e00-c25e7498c0d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.lmsl_course
+id: node.lmsl_course.promote
+field_name: promote
+entity_type: node
+bundle: lmsl_course
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings: {  }
+field_type: boolean

@@ -1,0 +1,18 @@
+<?php
+/*
+ * Implements hook_schema().
+ */
+
+/**
+ * Implements hook_install().
+ */
+function lmsl_course_install() {
+  // Creates the Generic FooType entity
+  /*entity_create('foo_type', array(
+    'label' => 'Generic Foo type',
+    'type' => 'generic',
+    'description' => 'A very informative text goes here.',
+    'settings' => array('published' => 0)
+  ))->save();*/
+}
+?>

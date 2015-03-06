@@ -1,0 +1,26 @@
+uuid: 499a57d4-875f-4d23-b81b-2799958270c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.lmsl_course.body
+    - node.type.lmsl_course
+  module:
+    - text
+    - user
+id: node.lmsl_course.teaser
+targetEntityType: node
+bundle: lmsl_course
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

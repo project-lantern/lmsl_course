@@ -1,0 +1,9 @@
+name: Course
+description: Example Module description.
+package: Custom
+type: module
+version: 1.0
+core: 8.x
+dependencies:
+  - node
+configure: lmsl_course.admin_index
